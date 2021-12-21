@@ -1,0 +1,371 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1160px;
+}
+
+.screenshot{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 760px;
+}
+
+.add_form{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.add{
+    height: 200px;
+    width: 100%;
+    border: 2px dashed #ddd;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.add p{
+    color: #999;
+    font-size: 18px;
+}
+
+.title h2{
+    font-style: 24px;
+    color: #333;
+}
+
+.content_photo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.photo{
+    display: flex;
+    width: 176px;
+    height: 176px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 18px 0 0 0;
+    overflow: hidden;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right{
+    width: 360px;
+}
+
+
+/* profile */
+
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px;
+    background: #257CFF;
+    border-radius: 10px;
+}
+
+.user_img{
+    background: #3F8CFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.user_text{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.user_text h2{
+    font-size: 18px;
+    font-weight: unset;
+    margin-top: 10px;
+}
+
+.user_text h3{
+    font-size: 14px;
+    font-weight: unset;
+    margin-top: 5px;
+}
+
+
+.user_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.info{
+    text-align: center;
+    color: #fff;
+}
+
+.info h2{
+    font-size: 18px;
+}
+
+.info h3{
+    font-weight: unset;
+    font-size: 14px;
+}
+
+.us_hr{
+    height: 50px;
+    width: 1px;
+    background: #fff;
+}
+
+.user_btn_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.user_btn{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 200px;
+}
+
+.user_btn:hover{
+    transition: 0.2s;
+    background: #fff;
+    color: #257CFF;
+}
+
+/* information */
+
+.information{
+    text-align: center;
+    padding: 25px;
+    background: #257CFF;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.information h2{
+    font-size: 24px;
+}
+
+.information h3{
+    font-size: 14px;
+    font-weight: unset;
+    margin-top: 10px;
+}
+
+@media(min-width: 320px) and (max-width: 479px){
+    .container{
+        width: 90%;
+    }
+    
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .add{
+        height: 200px;
+        width: 98%;
+        border: 2px dashed #ddd;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+
+    .title h2{
+        font-style: 24px;
+        text-align: center;
+        color: #333;
+    }
+    
+    .content_photo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+    .photo{
+        display: flex;
+        width: 136px;
+        height: 136px;
+        border-radius: 10px;
+        text-decoration: none;
+        background: #ddd;
+        margin: 18px 0 0 0;
+    }
+    
+    .right{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    /* profile */
+    
+    .profile{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 25px;
+        background: #257CFF;
+        border-radius: 10px;
+    }
+}
+
+@media(min-width: 480px) and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+    
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    
+    .left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    
+    .add{
+        height: 200px;
+        width: 98%;
+        border: 2px dashed #ddd;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+
+    .title h2{
+        font-style: 24px;
+        text-align: center;
+        color: #333;
+    }
+    
+    .content_photo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    
+    .photo{
+        display: flex;
+        width: 136px;
+        height: 136px;
+        border-radius: 10px;
+        text-decoration: none;
+        background: #ddd;
+        margin: 18px 0 0 0;
+    }
+    
+    .right{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    /* profile */
+    
+    .profile{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 25px;
+        background: #257CFF;
+        border-radius: 10px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1166px){
+
+    .container{
+        width: 90%;
+    }
+    
+    .screenshot{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0 0 0;
+    }
+    
+    .content{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .left{
+        width: 58%;
+    }
+
+    .right{
+        width: 38%;
+        max-width: 360px;
+    }
+    
+
+}
